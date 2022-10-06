@@ -1,0 +1,27 @@
+{
+  "name": "node-dynamic-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palhg5848/Node-Dynamic-Website.git"
+  },
+  "author": "DIL ZAIB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palhg5848/Node-Dynamic-Website/issues"
+  },
+  "homepage": "https://github.com/palhg5848/Node-Dynamic-Website#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
